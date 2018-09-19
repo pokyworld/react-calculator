@@ -1,6 +1,6 @@
 {
-  "name": "material-ui",
-  "version": "0.1.0",
+  "name": "react-boilerplate",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.1.0",
@@ -41,6 +41,14 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokyworld/react-boilerplate.git"
+  },
+  "keywords": [
+    "Node",
+    "React"
+  ],
   "author": "Des Butler",
   "license": "ISC"
 }
