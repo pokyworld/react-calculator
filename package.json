@@ -1,7 +1,6 @@
 {
   "name": "react-calculator",
   "version": "1.0.0",
-  "private": true,
   "homepage": "https://pokyworld.github.io/react-calculator",
   "dependencies": {
     "big.js": "^5.2.2",
