@@ -1,12 +1,16 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from 'react';
 
-export default class componentName extends Component {
+import Calculator from './components/Calculator';
+
+export class App extends Component {
     render() {
         return (
-            <div>
-                <h1>Hello</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis dolore saepe obcaecati illo quod eaque enim, asperiores, aspernatur facere voluptatibus veritatis. Eos deleniti tenetur laudantium odit quasi sit repudiandae?</p>
+            <div className="container">
+                <p style={{ marginTop: 10, marginBottom: 0 }}>React Calculator</p>
+                <Calculator />
             </div>
         )
     }
-}
+};
+
+export default App;

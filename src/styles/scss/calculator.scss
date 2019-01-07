@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto';
+}
+
+// functions
+@function set-text-color($color) {  
+    @if (lightness( $color ) > 64) {
+      @return $black;
+    }
+    @else {
+      @return $white;
+    }
+}
+
+.orange {
+    background-color: $orange;
+    color:set-text-color($orange);
+    &:active {
+        background-color: darken($orange,10);
+        color:set-text-color(darken($orange,10));
+    }
+}
+
+
+.light-grey {
+    background-color: $lightGrey;
+    color: set-text-color($lightGrey);
+    &:active {
+        background-color: lighten($lightGrey,10);
+        color:set-text-color(lighten($lightGrey,10));
+    }
+}
+
+.mid-grey {
+    background-color: $midGrey;
+    color: set-text-color($midGrey);
+    &:active {
+        background-color: lighten($midGrey,10);
+        color:set-text-color(lighten($midGrey,10));
+    }
+}
+
+.dark-grey {
+    background-color: $darkGrey;
+    color:set-text-color($darkGrey);
+}
